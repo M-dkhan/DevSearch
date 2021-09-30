@@ -1,5 +1,5 @@
 # DevSearch
-This is a Project sharing website made in Django.
+This is a <strong> Project sharing </strong> website made in <strong> Django </strong>.
 
 
 

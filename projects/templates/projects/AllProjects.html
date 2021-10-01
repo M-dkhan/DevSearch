@@ -1,0 +1,23 @@
+{% extends 'main.html' %}
+
+{% block title %}
+All Projects
+{% endblock title %}
+
+
+{% block body %}
+<h1>
+    AllProjects
+</h1>
+<br>
+<ul>
+    {% for project in projects %}
+        <li> {{project.title}}
+        <a href="{% url 'SingleProject' project.id %}">View Project</a>
+        <a href="{% url 'EditProject' project.id %}">Edit Project</a>
+        <a href="{% url 'DeleteProject' project.id %}">Delete Project</a></li>
+        
+        <br>
+    {% endfor %}
+ </ul>   
+{% endblock body %}

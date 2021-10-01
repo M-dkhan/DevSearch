@@ -1,0 +1,19 @@
+{% extends 'main.html' %}
+
+{% block title %}
+Edit Project 
+{% endblock title %} 
+{% block body %}
+<form action="" method="post">
+{% csrf_token %}
+<h3>Edit Project</h3>
+<hr>
+{% for field in form %}
+{{field.label}}
+
+{{field}}
+<br>
+{% endfor %}
+<input type="submit" value="Save">
+</form>
+{% endblock body %}

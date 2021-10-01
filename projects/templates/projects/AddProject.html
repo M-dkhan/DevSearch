@@ -1,0 +1,20 @@
+{% extends 'main.html' %}
+
+{% block title %}
+Add Project
+{% endblock title %}
+
+{% block body %}
+<h1>
+    Add Project
+</h1>
+
+    <form action="" method="POST">
+        {% csrf_token %}
+
+        {{form.as_p}}
+        <input type="submit" value="Submit">
+
+    </form>
+
+{% endblock body %}

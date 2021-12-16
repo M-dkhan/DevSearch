@@ -12,7 +12,7 @@ This is a <strong> Project sharing </strong> website made in <strong> Django </s
 </ul>
 
 
-<img src="https://api.unsplash.com/search/photos?page=1&query=SEARCH_QUERY" alt=""/> 
+<img src="https://picsum.photos/200/300" alt=""/> 
 
 
 
